@@ -1,0 +1,89 @@
+.container {
+    background-color:  linear-gradient(180deg, #130754 0%, #3b2f80 100%);;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 0.115rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    padding: 2rem 3rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50px;
+}
+.topBar {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+.topBar input {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #626262;
+    padding-left: 8px;
+}
+.searchIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 40px;
+    position: relative;
+    right: 40px;
+    cursor: pointer;
+}
+.weatherImage {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weatherTemp {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.fahrenheitTemp {
+    margin-left: 10px;
+}
+.weatherLocation {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+font-weight: 400;
+}
+.dataContainer {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+.data {
+    font-size: 14px;
+    font-weight: 400;
+}
+.text {
+    font-size: 10px;
+    font-weight: 400;
+}
+.icon {
+    margin-top: 10px;
+
+}
